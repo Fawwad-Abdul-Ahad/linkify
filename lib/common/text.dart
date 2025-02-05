@@ -13,6 +13,6 @@ class CommonText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       textAlign: textAlignText,
-      text,style:GoogleFonts.poppins(color: textColor,fontSize: textSize,fontWeight: fontWeightText,),);
+      text,style:GoogleFonts.poppins(color: textColor,fontSize: textSize,fontWeight: fontWeightText,));
   }
 }
